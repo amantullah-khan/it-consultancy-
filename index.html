@@ -3,55 +3,67 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>IT Consultation Services</title>
+  <title>IT Consultation | Empowering Digital Infrastructure</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <h1>IT Consultation & Infrastructure Services</h1>
+  <header class="topbar">
+    <div class="logo">IT ConsultPro</div>
     <nav>
+      <a href="#about">About</a>
       <a href="#services">Services</a>
+      <a href="#testimonials">Testimonials</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <section class="hero">
-    <h2>Your Trusted Partner in IT Solutions</h2>
-    <p>From infrastructure setup to cloud hosting and cybersecurity — we’ve got you covered.</p>
+    <h1>Empowering Businesses Through Innovative IT Solutions</h1>
+    <p>From infrastructure to cloud, we deliver scalable, secure, and smart IT services tailored to your needs.</p>
+    <a href="#contact" class="cta-button">Get a Quote</a>
   </section>
 
-  <section id="services">
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>Since 2013, we've helped businesses transform digitally with robust IT infrastructure, cloud hosting, and cybersecurity solutions. Our team of experts ensures precision, innovation, and long-term partnerships.</p>
+  </section>
+
+  <section id="services" class="services">
     <h2>Our Services</h2>
-    <ul>
-      <li>Infrastructure Setup (Laptop, Desktop, Internet)</li>
-      <li>Email Solutions & Email Suite</li>
-      <li>Cybersecurity & Data Protection</li>
-      <li>Cloud Hosting, Co-Location & Dedicated Infra</li>
-      <li>Disaster Recovery & Virtualization</li>
-      <li>Data Centre Management</li>
-      <li>CRM, HRMS & Project Management Tools</li>
-      <li>Business Intelligence & Analytics</li>
-    </ul>
+    <div class="grid">
+      <div class="card">Infrastructure Setup</div>
+      <div class="card">Email Suite & Cybersecurity</div>
+      <div class="card">Cloud Hosting & Co-Location</div>
+      <div class="card">Dedicated Infra & Disaster Recovery</div>
+      <div class="card">Virtualization & Data Centre</div>
+      <div class="card">CRM, HRMS & BI Tools</div>
+    </div>
   </section>
 
-  <section id="contact">
+  <section id="testimonials" class="testimonials">
+    <h2>Client Testimonials</h2>
+    <blockquote>
+      “Exceptional service! Their technical expertise and reliability make them our go-to IT partner.” — Hikal Ltd.
+    </blockquote>
+    <blockquote>
+      “Their collaborative approach ensures seamless integration and innovation.” — L&T
+    </blockquote>
+  </section>
+
+  <section id="contact" class="contact">
     <h2>Contact Us</h2>
+    <p>📍 B-21, Gurudev Apartment, Chembur Naka, Mumbai - 400071</p>
+    <p>📞 +91 9820380677 | 📧 sales@yourdomain.com</p>
     <form>
-      <label for="name">Name:</label><br/>
-      <input type="text" id="name" name="name" required /><br/>
-
-      <label for="email">Email:</label><br/>
-      <input type="email" id="email" name="email" required /><br/>
-
-      <label for="message">Message:</label><br/>
-      <textarea id="message" name="message" rows="5" required></textarea><br/>
-
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
       <button type="submit">Send Inquiry</button>
     </form>
   </section>
 
   <footer>
-    <p>&copy; 2025 IT Consultation Services. All rights reserved.</p>
+    <p>&copy; 2025 IT ConsultPro. All rights reserved.</p>
   </footer>
 </body>
 </html>
